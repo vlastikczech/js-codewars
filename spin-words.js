@@ -11,7 +11,7 @@ function spinWords(string){
     for(var i = 0; i < string.length; i++){
         tempString = string[i].split('');
         emptyString = '';
-      if(tempString.length > 5){
+      if(tempString.length >= 5){
         for(var k = tempString.length-1; k >= 0; k--){
           emptyString = emptyString + tempString[k]
         }
